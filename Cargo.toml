@@ -15,7 +15,7 @@ proc-macro2 = "1.0"
 quote = "1.0"
 nom = {version="7.1.0"}
 mktemp = {version="0.4.1"}
-rem-utils = { version="0.1", path = "../rem-utils" }
+rem-utils = { git = "https://github.com/RuleBrittonica/rem-utils.git", branch = "master" }
 itertools = "0.10.5"
 env_logger = "0.10.0"
 log = "0.4.17"
