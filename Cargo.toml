@@ -5,7 +5,7 @@ version = "0.1.2"
 edition = "2021"
 license = "MIT"
 description = "Utilities for Rusty Extraction Maestro"
-repository = "https://github.com/verse-lab/rustic-cat"
+repository = "https://github.com/RuleBrittonica/rem-constraint.git" # Forked from: "https://github.com/verse-lab/rustic-cat"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -15,10 +15,10 @@ proc-macro2 = "1.0"
 quote = "1.0"
 nom = {version="7.1.0"}
 mktemp = {version="0.4.1"}
-rem-utils = { git = "https://github.com/RuleBrittonica/rem-utils.git", branch = "master" }
 itertools = "0.10.5"
-env_logger = "0.10.0"
+env_logger = "0.11.5"
 log = "0.4.17"
+rem-utils = "0.1.2"
 
 [[bin]]
 name = "main"

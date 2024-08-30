@@ -1,6 +1,5 @@
 #![feature(box_patterns)]
 #![feature(box_into_inner)]
-
 mod chr;
 pub mod common;
 mod constraint;
