@@ -1,12 +1,16 @@
 [package]
 name = "rem-constraint"
 authors = ["VERSE Lab <https://verse-lab.github.io>", "Matthew Britton <matt.britton@anu.edu.au"]
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 license = "MIT"
 description = "Utilities for Rusty Extraction Maestro"
 repository = "https://github.com/RuleBrittonica/rem-constraint.git" # Forked from: "https://github.com/verse-lab/rustic-cat"
-
+include = [
+    "contraint_rules/alias_constraint_rules.pl",
+    "contraint_rules/arr_constraint_rules.pl",
+    "contraint_rules/mut_constraint_rules.pl",
+]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

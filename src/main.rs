@@ -32,7 +32,7 @@ fn main() {
     cs.add_constraint::<AliasConstraints>();
 
     cs.analyze(&annot_ast);
-    let constraints = cs.get_constraints::<AliasConstraints>();
+    let constraints: Vec<AliasConstraints> = cs.get_constraints::<AliasConstraints>();
     let constraints: Vec<AliasConstraints> = constraints.into_iter().unique().collect();
 
     for constraint in constraints {
