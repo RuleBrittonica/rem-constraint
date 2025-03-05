@@ -7,9 +7,9 @@ license = "MIT"
 description = "Utilities for Rusty Extraction Maestro"
 repository = "https://github.com/RuleBrittonica/rem-constraint.git" # Forked from: "https://github.com/verse-lab/rustic-cat"
 include = [
-    "contraint_rules/alias_constraint_rules.pl",
-    "contraint_rules/arr_constraint_rules.pl",
-    "contraint_rules/mut_constraint_rules.pl",
+    "constraint_rules/alias_constraint_rules.pl",
+    "constraint_rules/arr_constraint_rules.pl",
+    "constraint_rules/mut_constraint_rules.pl",
     "src/chr.rs",
     "src/common.rs",
     "src/constraint.rs",
