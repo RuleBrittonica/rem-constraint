@@ -33,7 +33,7 @@ impl std::fmt::Display for AliasConstraints {
 
 #[allow(suspicious_double_ref_op)]
 impl crate::LocalConstraint for AliasConstraints {
-    const CHR_RULES: &'static str = include_str!("constraint_rules/alias_constraint_rules.pl");
+    const CHR_RULES: &'static str = include_str!("src/constraint_rules/alias_constraint_rules.pl");
     fn parse(s: &str) -> nom::IResult<&str, Self> {
         use rem_utils::parser::{label, ws};
         fn ref_(s: &str) -> IResult<&str, AliasConstraints> {
