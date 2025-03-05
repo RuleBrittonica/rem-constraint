@@ -1,7 +1,7 @@
 [package]
 name = "rem-constraint"
 authors = ["VERSE Lab <https://verse-lab.github.io>", "Matthew Britton <matt.britton@anu.edu.au"]
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 license = "MIT"
 description = "Utilities for Rusty Extraction Maestro"
@@ -19,8 +19,10 @@ proc-macro2 = "1.0"
 quote = "1.0"
 nom = {version="7.1.0"}
 mktemp = {version="0.4.1"}
-rem-utils = { path = "../rem-utils" }
-# rem-utils = { git = "https://github.com/RuleBrittonica/rem-utils.git", branch = "master" }
+# rem-utils = { path = "../rem-utils" }
+# rem-utils = { git = "https://github.com/RuleBrittonica/rem-utils.git", branch
+# = "master" }
+rem_utils = "0.1.6"
 itertools = "0.10.5"
 env_logger = "0.11.5"
 log = "0.4.17"
