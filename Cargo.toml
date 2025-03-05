@@ -31,5 +31,9 @@ log = "0.4.17"
 name = "main"
 path = "src/main.rs"
 
+[lib]
+name = "rem_constraint"
+path = "src/lib.rs"
+
 [package.metadata.rust-analyzer]
 rustc_private=true
