@@ -10,12 +10,17 @@ include = [
     "contraint_rules/alias_constraint_rules.pl",
     "contraint_rules/arr_constraint_rules.pl",
     "contraint_rules/mut_constraint_rules.pl",
+    "src/chr.rs",
+    "src/common.rs",
+    "src/constraint.rs",
+    "src/lib.rs",
+    "src/main.rs",
 ]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 syn = {version="1.0.80", features=["extra-traits", "full", "visit", "fold", "visit-mut", "printing", "parsing"]}
-proc-macro2 = "1.0"
+proc-macro2 = "1.0.94"
 quote = "1.0"
 nom = {version="7.1.0"}
 mktemp = {version="0.4.1"}
